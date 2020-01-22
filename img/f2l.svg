@@ -1,0 +1,42 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="256px" height="256px" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid meet">
+<metadata> Created by Rubik Image Generator, written by Li Xiao-Tian. </metadata>
+
+<rect id="bg" width="256" height="256" fill="#ffffff"/>
+<path id="f1" d="M 15 63 69.667 70 69.667 125 15 118 15 63 z" fill="#A9A9A9"/>
+<path id="f2" d="M 69.667 70 124.333 77 124.333 132 69.667 125 69.667 70 z" fill="#A9A9A9"/>
+<path id="f3" d="M 124.333 77 179 84 179 139 124.333 132 124.333 77 z" fill="#F9F9F9"/>
+<path id="f4" d="M 15 118 69.667 125 69.667 180 15 173 15 118 z" fill="#0194dd"/>
+<path id="f5" d="M 69.667 125 124.333 132 124.333 187 69.667 180 69.667 125 z" fill="#0194dd"/>
+<path id="f6" d="M 124.333 132 179 139 179 194 124.333 187 124.333 132 z" fill="#A9A9A9"/>
+<path id="f7" d="M 15 173 69.667 180 69.667 235 15 228 15 173 z" fill="#0194dd"/>
+<path id="f8" d="M 69.667 180 124.333 187 124.333 242 69.667 235 69.667 180 z" fill="#0194dd"/>
+<path id="f9" d="M 124.333 187 179 194 179 249 124.333 242 124.333 187 z" fill="#A9A9A9"/>
+<path id="u1" d="M 76 6 130.667 13 110.333 32 55.667 25 76 6 z" fill="#A9A9A9"/>
+<path id="u2" d="M 130.667 13 185.333 20 165 39 110.333 32 130.667 13 z" fill="#A9A9A9"/>
+<path id="u3" d="M 185.333 20 240 27 219.667 46 165 39 185.333 20 z" fill="#A9A9A9"/>
+<path id="u4" d="M 55.667 25 110.333 32 90 51 35.333 44 55.667 25 z" fill="#D8251A"/>
+<path id="u5" d="M 110.333 32 165 39 144.667 58 90 51 110.333 32 z" fill="#A9A9A9"/>
+<path id="u6" d="M 165 39 219.667 46 199.333 65 144.667 58 165 39 z" fill="#A9A9A9"/>
+<path id="u7" d="M 35.333 44 90 51 69.667 70 15 63 35.333 44 z" fill="#A9A9A9"/>
+<path id="u8" d="M 90 51 144.667 58 124.333 77 69.667 70 90 51 z" fill="#A9A9A9"/>
+<path id="u9" d="M 144.667 58 199.333 65 179 84 124.333 77 144.667 58 z" fill="#0194dd"/>
+<path id="r1" d="M 179 84 199.333 65 199.333 120 179 139 179 84 z" fill="#D8251A"/>
+<path id="r2" d="M 199.333 65 219.667 46 219.667 101 199.333 120 199.333 65 z" fill="#A9A9A9"/>
+<path id="r3" d="M 219.667 46 240 27 240 82 219.667 101 219.667 46 z" fill="#A9A9A9"/>
+<path id="r4" d="M 179 139 199.333 120 199.333 175 179 194 179 139 z" fill="#A9A9A9"/>
+<path id="r5" d="M 199.333 120 219.667 101 219.667 156 199.333 175 199.333 120 z" fill="#D8251A"/>
+<path id="r6" d="M 219.667 101 240 82 240 137 219.667 156 219.667 101 z" fill="#D8251A"/>
+<path id="r7" d="M 179 194 199.333 175 199.333 230 179 249 179 194 z" fill="#A9A9A9"/>
+<path id="r8" d="M 199.333 175 219.667 156 219.667 211 199.333 230 199.333 175 z" fill="#D8251A"/>
+<path id="r9" d="M 219.667 156 240 137 240 192 219.667 211 219.667 156 z" fill="#D8251A"/>
+<path id="u" d="M 179 84 240 27 76 6 15 63 179 84" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="f" d="M 179 84 179 249 15 228 15 63 179 84" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="r" d="M 179 84 240 27 240 192 179 249 179 84" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="lm" d="M 69.667 235 69.667 70 130.667 13" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="mr" d="M 124.333 242 124.333 77 185.333 20" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="fs" d="M 199.333 230 199.333 65 35.333 44" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="sb" d="M 219.667 211 219.667 46 55.667 25" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="ue" d="M 15 118 179 139 240 82" fill="none" stroke="#000000" stroke-width="2"/>
+<path id="ed" d="M 15 173 179 194 240 137" fill="none" stroke="#000000" stroke-width="2"/>
+</svg>
