@@ -4,40 +4,11 @@
 
 This tool generates SVG images of Rubik's cube, by which the states of the cube and the algorithm are illustrated. The images are as follows.
 
-<div style="text-align:center;">
-    <table>
-        <tr>
-            <td>
-                <img src="img/complete.svg" height="96px"/>
-            </td>
-            <td>
-                <img src="img/f2l.svg" height="96px"/>
-            </td>
-            <td>
-                <img src="img/oll.svg" height="96px"/>
-            </td>
-            <td>
-                <img src="img/pll.svg" height="96px"/>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Rubik's Cube
-            </td>
-            <td>
-                F2L 25
-            </td>
-            <td>
-                OLL 36
-            </td>
-            <td>
-                PLL 09
-            </td>
-        </tr>
-    </table>
-</div>
+<img src="img/solved.svg" height="100px"/> | <img src="img/f2l.svg" height="100px"/> | <img src="img/oll.svg" height="98px"/> | <img src="img/pll.svg" height="98px"/>
+:---:|:---:|:---:|:---:
+Cube | F2L 25 | OLL 36 | PLL 09
 
-Images of CFOP algorithms are covered. Based on [GAN's CFOP](https://www.gancube.com/3x3x3-cfop-guide-of-gancube).
+Images of CFOP algorithms (based on [GAN's CFOP](https://www.gancube.com/3x3x3-cfop-guide-of-gancube)) are covered. And of course we can do way more than that.
 
 ## Why is it?
 
@@ -47,9 +18,9 @@ OK. Sure you can use those pictures already there instead of 'generate' an SVG b
 
 ## How do I use it?
 
-The docstrings and a few trials of it will guide you, but I believe you gonna need the main ideas here. 
+The docstrings and a few trials of it will guide you, but I believe you'll need the main ideas here. 
 
-`f2l()`, `oll()` and `pll()` are the main functions. They all would take an algorithm code number as the first paramater, and then generates the corresponding image.
+`f2l()`, `oll()` and `pll()` are the main functions. They all would take an algorithm code number as the first parameter, and then generates the corresponding image.
 
 But things can be some more intriguing.
 
@@ -57,7 +28,9 @@ But things can be some more intriguing.
 
 For `f2l(x, basestate='slot', filename='f2l.svg')`, `x` can be the numeric code or a dictionary, which tells the script what colour should each patch be filled with. The patches are represented by 2-character string, and on the 'u' (up) face, they are from `u1` to `u9`. The same goes for 'f' and 'r' face.
 
-<img src="img/code.png" width="192px"/>
+<p align="center">
+<img src="img/code.png" width="148px"/>
+</p>
 
 Each colour are represented by a character. `'w'` for white, `'r'` for red, `'b'` for blue ,`'g'` for green ,`'o'` for orange ,`'y'` for yellow , `'u'` for *gray*.
 
@@ -81,19 +54,15 @@ For `pll(x, rotate=0, filename="pll.svg")`, it is much simpler. `x` can be only 
 
 ### Colours
 
-`utils_geometry_colour.py` module is responsible for that.
-
-Change the colour scheme by `ColourScheme.config_colour()`.
-
-Change the colours by changing the codes in `COLOURS`.
+`utils_geometry_colour.py` module is responsible for that. You may change the colours and the scheme there.
 
 ### Size of the image
 
 What?
 
-### And...
+### About the format
 
-Happy cubing and happy hacking!
+If you need other format other than `.svg` files like `.png` and `.jpg`, you need to convert them by yourself.
 
 ## Dependencies
 
@@ -102,3 +71,7 @@ Python 3. And maybe some basic knowledges about the cube (for example the notati
 ## Contributing
 
 I want to cover more algorithm sets. Contrubutions are always welcome! Open an issue if you have new ideas.
+
+## And...
+
+Happy cubing and happy hacking!
